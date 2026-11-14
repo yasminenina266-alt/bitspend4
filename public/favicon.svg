@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="6" y1="4" x2="58" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E2740" />
+      <stop offset="52%" stop-color="#0A2540" />
+      <stop offset="100%" stop-color="#050B16" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16 14) rotate(45) scale(44)">
+      <stop offset="0%" stop-color="#635BFF" stop-opacity="0.52" />
+      <stop offset="100%" stop-color="#635BFF" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="mark" x1="20" y1="14" x2="44" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="65%" stop-color="#F1F5F9" />
+      <stop offset="100%" stop-color="#CBD5E1" />
+    </linearGradient>
+    <linearGradient id="rim" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.34" />
+      <stop offset="50%" stop-color="#635BFF" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.08" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bg)" />
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#glow)" />
+  <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="15.25" stroke="url(#rim)" stroke-width="1.5" />
+  <path
+    d="M27.25 14v5h4.5v-5h3.25v5.15c4.75.48 7.85 2.75 7.85 6.55 0 2.65-1.45 4.55-3.95 5.45 3.15.85 4.95 3.1 4.95 6.25 0 4.35-3.45 6.95-8.85 7.4V50h-3.25v-5h-4.5v5H24v-5h-5.25v-4.25h2.5c1.1 0 1.65-.55 1.65-1.65V24.9c0-1.1-.55-1.65-1.65-1.65h-2.5V19H24v-5h3.25Zm.75 9.25v6.65h4.4c2.85 0 4.55-1.2 4.55-3.35 0-2.1-1.7-3.3-4.55-3.3H28Zm0 10.65v7.1h5.1c3.1 0 4.9-1.25 4.9-3.55s-1.8-3.55-4.9-3.55H28Z"
+    fill="url(#mark)"
+  />
+  <circle cx="48.5" cy="15.5" r="3" fill="#00D4B6" />
+</svg>
